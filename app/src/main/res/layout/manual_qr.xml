@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Enter Device ID"
+        android:textSize="20dp"
+        android:id="@+id/title" />
+
+    <EditText
+        android:id="@+id/etX"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:layout_gravity="center_horizontal">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSendResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ENTER" />
+
+</LinearLayout>
